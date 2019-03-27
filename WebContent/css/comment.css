@@ -1,0 +1,46 @@
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.page{
+    color:#4998a1;
+}
+.font15px{
+    font-size:15px;
+}
+.font18px{
+    font-size:18px;
+}
+.font25px{
+    font-size: 25px;
+}
+.red{
+    color:red;
+}
+.white{
+    color:#ffffff;
+}
+.green{
+    color: green;
+}
+.undisplay{
+    display: none;
+}
+.gray{
+    color: #6d6d6d;
+}
+.bold{
+    font-weight: bold;
+}
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0px;
+}
+.clearfloat{
+    zoom:1
+}

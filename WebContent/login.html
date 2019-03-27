@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>网上书店</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/comment.css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+<div class="login_wrapper">
+    <div class="login">
+        <ul class="tab" id="tab">
+            <li class="font18px">密码登录
+            </li><li class="font18px">注册</li>
+        </ul>
+        <ul class="log">
+        <h2 class="undisplay" id="state">登录</h2>
+            <li>
+                <div class="pho">
+
+                </div><input type="text" name="login" placeholder="请输入账号" id="userId">
+            </li>
+            <li>
+                <div class="pho">
+
+                </div><input type="password" name="" placeholder="请输入密码" id="password">
+            </li>
+            <li>
+                <a href="" class="log_btn" id="log_btn">登录</a>
+            </li>
+            <p id="logResult" class="logResult red undisplay">亲,登录失败</p>
+        </ul>
+        <ul class="log undisplay">
+            <h2 class="undisplay">注册</h2>
+            <li>
+                <span class="log_page">账号：
+                </span><input type="text" name="" placeholder="请输入账号" id="reg_userId">
+            </li>
+            <p id="idTip" class="undisplay"></p>
+            <li>
+                <span class="log_page">密码：
+                </span><input type="password" name="" placeholder="请设置密码" id="reg_password1">
+            </li>
+            <li>
+                <span class="log_page">确认密码：
+                </span><input type="password" name="" placeholder="再次确认密码" id="reg_password2">
+            </li>
+            <p id="passResult" class="undisplay">两次密码输入不一致</p>
+            <li>
+                <a href="" class="log_btn" id="reg_btn">注册</a>
+            </li>
+            <p id="regiResult" class="undisplay"></p>
+        </ul>
+    </div>
+</div>
+<script src="js/publish.js"></script>
+<script src="js/login.js"></script>
+</body>

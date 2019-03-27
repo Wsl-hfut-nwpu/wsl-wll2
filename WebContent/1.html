@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="a" style="height: 100px;width: 100px;border: 1px solid">
+
+</div>
+<script>
+
+
+　　function count(a) {
+    　　var count = 0
+    　　for(pro in a) {
+        　　if(a.hasOwnProperty(pro)) { // 这里扩展了对象,所以必须判断
+           　　 count++;
+        　　}
+    　　}
+   　　 return count;
+　　}
+
+var a = {
+    b:2,
+    c:2
+}
+console.log(count(a));
+</script>
+
+</body>
+</html>
